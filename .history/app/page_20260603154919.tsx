@@ -16,8 +16,8 @@ export default function Home() {
       <main>
         {/* 1. proof of reality */}
         <StoryImage
-          src="/images/students_ism.png" // your original mobile image
-          desktopSrc="/images/students_ism_desktop.png" // new desktop crop
+          src="./images/students_ism.png" // your original mobile image
+          desktopSrc="./images/students_ism_desktop.png" // new desktop crop
           alt="Senior students at ISM"
           caption="Six of our oldest students visiting ISM as part of a learning opportunity"
         />
