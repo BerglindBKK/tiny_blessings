@@ -7,7 +7,7 @@
 }
 
   html {
-   font-size: 14px;               /* base font size */
+   font-size: 15px;               /* base font size */
   -webkit-text-size-adjust: 100%; /* prevent iOS/Safari auto-scaling */
   box-sizing: border-box;
 }
@@ -19,15 +19,13 @@
 body {
   margin: 0;
   padding: 0;
-  color: var(--color-body);
-  background: #ffffff;
-  line-height: 1.6;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
 }
 
-
+main > section {
+  max-height: 70vh;
+  overflow: hidden;
+}
 @theme inline {
   /* --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -57,7 +55,17 @@ body {
 /* =========================
    BASE STYLES
 ========================= */
+body {
+  /* font-family: var(--font-inter); */
+  color: var(--color-body);
+  background: #ffffff;
+  line-height: 1.6;
 
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
 
 /* Headings */
 h1,

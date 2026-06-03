@@ -15,13 +15,13 @@ export default function StoryImage({
     <section className="bg-white">
       <div className="relative w-full">
         {/* MOBILE IMAGE */}
-        <div className="w-full relative h-[220px] sm:h-[250px] md:hidden lg:hidden">
+        <div className="w-full aspect-[4/5] sm:aspect-square md:hidden lg:hidden relative max-h-[400px]">
           <Image src={src} alt={alt} fill className="object-cover object-top" />
         </div>
 
         {/* DESKTOP IMAGE */}
         {desktopSrc && (
-          <div className="hidden md:block w-full relative h-[250px] md:h-[320px] lg:h-[400px]">
+          <div className="hidden md:block w-full aspect-[21/9]">
             <Image
               src={desktopSrc}
               alt={alt}

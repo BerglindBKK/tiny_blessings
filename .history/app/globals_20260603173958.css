@@ -7,26 +7,17 @@
 }
 
   html {
-   font-size: 14px;               /* base font size */
-  -webkit-text-size-adjust: 100%; /* prevent iOS/Safari auto-scaling */
-  box-sizing: border-box;
-}
+ -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 15px;
+  }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
+  html, body {
+min-height: 100vh;
   margin: 0;
   padding: 0;
-  color: var(--color-body);
-  background: #ffffff;
-  line-height: 1.6;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
-
 
 @theme inline {
   /* --color-background: var(--background);
@@ -57,7 +48,17 @@ body {
 /* =========================
    BASE STYLES
 ========================= */
+body {
+  /* font-family: var(--font-inter); */
+  color: var(--color-body);
+  background: #ffffff;
+  line-height: 1.6;
 
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
 
 /* Headings */
 h1,
