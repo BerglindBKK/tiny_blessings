@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[27462,["/_next/static/chunks/0m8aqwtr~lvze.js","/_next/static/chunks/0ujjtiu2~ng0-.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"px-5 py-20 max-w-4xl mx-auto","children":[["$","h1",null,{"className":"text-[36px] font-serif text-navy","children":"About Us"}],["$","p",null,{"className":"mt-4 text-body","children":"More information about Tiny Blessings Foundation coming soon."}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"rKqDxe60e908MMn6wp-vC"}
+4:null
