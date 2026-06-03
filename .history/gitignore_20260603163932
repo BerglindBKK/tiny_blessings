@@ -172,3 +172,9 @@ dist
 
 .vscode/
 .history/
+
+node_modules/
+.next/
+out/
+.history/
+.DS_Store

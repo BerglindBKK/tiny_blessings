@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Prevent Safari text scaling issues */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Tailwind theme variables */
+@theme inline {
+ --color-navy: #05376B;
+--color-coral: #D97757;
+
+  --color-body: #4B5563;
+  --color-muted: #6B7280;
+
+  --color-border: #E5E7EB;
+  --color-soft: #F5F7FA;
+}
+
+/* Base styles */
+body {
+  color: var(--color-body);
+  background: #ffffff;
+  line-height: 1.6;
+
+  /* IMPORTANT: normalize font rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: var(--font-playfair);
+  line-height: 1.2;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
